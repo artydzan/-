@@ -501,6 +501,11 @@ h1, h2, h3, h4, h5,
         color: #000 !important;
         display: inline-block;
         text-decoration: none !important; }
+        @media (max-width: 1200px) {
+          .site-navbar .site-navigation .site-menu > li > a {
+            margin-left: 10px;
+        margin-right: 10px; } 
+          }
         .site-navbar .site-navigation .site-menu > li > a:hover {
           color: #65A1D7; }
     .site-navbar .site-navigation .site-menu .has-children {
@@ -876,8 +881,11 @@ h1, h2, h3, h4, h5,
       transform: translate(-50%, -50%); }
 
 .block-img-video-1-wrap .block-img-video-1 {
-  margin-left: 10rem;
+  margin-left: 0;
   position: relative; }
+  @media (min-width: 1200px) {
+    .block-img-video-1-wrap .block-img-video-1 {
+      margin-left: 10rem; } }
 
 .block-img-video-1 > a {
   display: block;
