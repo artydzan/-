@@ -920,13 +920,13 @@ h1, h2, h3, h4, h5,
     line-height: 1; }
   .block-counter-1 .number {
     color: #fff;
-    font-size: 4rem;
+    font-size: 2rem;
     position: relative;
     padding-bottom: 20px;
     margin-bottom: 20px; }
-    @media (max-width: 991.98px) {
+    @media (max-width: 1200px) {
       .block-counter-1 .number {
-        font-size: 2rem; } }
+        font-size: 1rem; } }
     .block-counter-1 .number:after {
       position: absolute;
       content: "";
